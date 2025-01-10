@@ -7,13 +7,14 @@ Adaptive Thresholding applied to the edges to create sketch-like visuals.
 Displays live webcam feed with the processed sketch as output.
 Press 'q' to exit the application.
 
-#How It Works
-Grayscale Conversion: Each frame is first converted into grayscale using cv2.cvtColor(). This reduces the complexity of the image, focusing on intensity.
-Gaussian Blur: The grayscale image is then blurred using a Gaussian filter to reduce noise and improve the edge detection process.
-Canny Edge Detection: The cv2.Canny() function detects edges in the image based on intensity gradients.
-Adaptive Thresholding: Finally, the cv2.adaptiveThreshold() function is used to convert the edges into a binary image, enhancing the sketch effect.
+# How It Works
+1. Grayscale Conversion: Each frame is first converted into grayscale using cv2.cvtColor().
+2. This reduces the complexity of the image, focusing on intensity.
+3. Gaussian Blur: The grayscale image is then blurred using a Gaussian filter to reduce noise and improve the edge detection process.
+4. Canny Edge Detection: The cv2.Canny() function detects edges in the image based on intensity gradients.
+5. Adaptive Thresholding: Finally, the cv2.adaptiveThreshold() function is used to convert the edges into a binary image, enhancing the sketch effect.
 
-#Usage
+# Usage
 Start the application by running the script.
 You should see a window displaying the real-time video feed with sketch-like edges drawn on it.
 Press 'q' to quit the application and close the window.
