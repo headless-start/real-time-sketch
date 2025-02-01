@@ -35,7 +35,7 @@ This Python project demonstrates **real-time sketch generation** from a webcam f
 
 ---
 
-## 🛠 Usage  
+## 🛠 System Requirements  
 ### Dependencies  
 - Python 3.8+  
 - Libraries: `opencv-python`
