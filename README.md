@@ -6,6 +6,16 @@ This Python project demonstrates **real-time sketch generation** from a webcam f
 ---
 
 ## 🚀 Key Features  
+1. **Grayscale Conversion and Blur**:  
+   - Each frame is converted to grayscale to simplify processing and the grayscale image is blurred to reduce noise and smooth edges. 
+2. **Edge Detection**:  
+   - Edges are detected using intensity gradients, highlighting key features.  
+3. **Thresholding and Output**:  
+   - Edges are thresholded and displays live webcam feed with processed sketch like output.
+
+---
+
+## 🔍 How It Works  
 1. **Grayscale Conversion**:  
    - Converts frames to grayscale using `cv2.cvtColor()`, reducing complexity and focusing on intensity.  
 2. **Gaussian Blur**:  
@@ -14,20 +24,6 @@ This Python project demonstrates **real-time sketch generation** from a webcam f
    - Detects edges using `cv2.Canny()` based on intensity gradients.  
 4. **Adaptive Thresholding**:  
    - Converts edges into a binary image using `cv2.adaptiveThreshold()` for enhanced sketch effects.  
-
----
-
-## 🔍 How It Works  
-1. **Grayscale Conversion**:  
-   - Each frame is converted to grayscale to simplify processing.  
-2. **Gaussian Blur**:  
-   - The grayscale image is blurred to reduce noise and smooth edges.  
-3. **Canny Edge Detection**:  
-   - Edges are detected using intensity gradients, highlighting key features.  
-4. **Adaptive Thresholding**:  
-   - Edges are thresholded to create a binary sketch-like output.
-5. **Output**:  
-   - Displays live webcam feed with processed sketch output.
 
 ---
 
