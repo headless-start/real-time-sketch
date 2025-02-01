@@ -1,20 +1,41 @@
-# Real-Time Sketch Generation using Adaptive Thresholding
-This Python project demonstrates real-time sketch generation from a webcam feed using OpenCV. The program captures video frames from the camera, processes the frames using various image processing techniques (such as grayscale conversion, Gaussian blur, and Canny edge detection), and generates a sketch-like output.
-Features
+# Real-Time Sketch Generation using Adaptive Thresholding  
 
-# Real-time edge detection using Canny Edge Detection.
-Adaptive Thresholding applied to the edges to create sketch-like visuals.
-Displays live webcam feed with the processed sketch as output.
-Press 'q' to exit the application.
+## 📌 Project Overview  
+This Python project demonstrates **real-time sketch generation** from a webcam feed using **OpenCV**. The program captures video frames, processes them using image processing techniques (e.g., grayscale conversion, Gaussian blur, and Canny edge detection), and generates a sketch-like output.  
 
-# How It Works
-1. Grayscale Conversion: Each frame is first converted into grayscale using cv2.cvtColor().
-2. This reduces the complexity of the image, focusing on intensity.
-3. Gaussian Blur: The grayscale image is then blurred using a Gaussian filter to reduce noise and improve the edge detection process.
-4. Canny Edge Detection: The cv2.Canny() function detects edges in the image based on intensity gradients.
-5. Adaptive Thresholding: Finally, the cv2.adaptiveThreshold() function is used to convert the edges into a binary image, enhancing the sketch effect.
+**Features**:  
+- Real-time edge detection using **Canny Edge Detection**.  
+- **Adaptive Thresholding** applied to edges for sketch-like visuals.  
+- Displays live webcam feed with processed sketch output.  
+- Press **'q'** to exit the application.  
 
-# Usage
-Start the application by running the script.
-You should see a window displaying the real-time video feed with sketch-like edges drawn on it.
-Press 'q' to quit the application and close the window.
+---
+
+## 🚀 Key Features  
+1. **Grayscale Conversion**:  
+   - Converts frames to grayscale using `cv2.cvtColor()`, reducing complexity and focusing on intensity.  
+2. **Gaussian Blur**:  
+   - Applies a Gaussian filter to reduce noise and improve edge detection.  
+3. **Canny Edge Detection**:  
+   - Detects edges using `cv2.Canny()` based on intensity gradients.  
+4. **Adaptive Thresholding**:  
+   - Converts edges into a binary image using `cv2.adaptiveThreshold()` for enhanced sketch effects.  
+
+---
+
+## 🔍 How It Works  
+1. **Grayscale Conversion**:  
+   - Each frame is converted to grayscale to simplify processing.  
+2. **Gaussian Blur**:  
+   - The grayscale image is blurred to reduce noise and smooth edges.  
+3. **Canny Edge Detection**:  
+   - Edges are detected using intensity gradients, highlighting key features.  
+4. **Adaptive Thresholding**:  
+   - Edges are thresholded to create a binary sketch-like output.  
+
+---
+
+## 🛠 Usage  
+### Dependencies  
+- Python 3.8+  
+- Libraries: `opencv-python`  
