@@ -38,4 +38,9 @@ This Python project demonstrates **real-time sketch generation** from a webcam f
 ## 🛠 Usage  
 ### Dependencies  
 - Python 3.8+  
-- Libraries: `opencv-python`  
+- Libraries: `opencv-python`
+
+---
+
+## 📄 License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
