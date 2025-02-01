@@ -3,12 +3,6 @@
 ## 📌 Project Overview  
 This Python project demonstrates **real-time sketch generation** from a webcam feed using **OpenCV**. The program captures video frames, processes them using image processing techniques (e.g., grayscale conversion, Gaussian blur, and Canny edge detection), and generates a sketch-like output.  
 
-**Features**:  
-- Real-time edge detection using **Canny Edge Detection**.  
-- **Adaptive Thresholding** applied to edges for sketch-like visuals.  
-- Displays live webcam feed with processed sketch output.  
-- Press **'q'** to exit the application.  
-
 ---
 
 ## 🚀 Key Features  
@@ -31,7 +25,9 @@ This Python project demonstrates **real-time sketch generation** from a webcam f
 3. **Canny Edge Detection**:  
    - Edges are detected using intensity gradients, highlighting key features.  
 4. **Adaptive Thresholding**:  
-   - Edges are thresholded to create a binary sketch-like output.  
+   - Edges are thresholded to create a binary sketch-like output.
+5. **Output**:  
+   - Displays live webcam feed with processed sketch output.
 
 ---
 
